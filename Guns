@@ -1,0 +1,27 @@
+Basic Weapon features:
+
+- Ammo - Magazine and loose ammo support. Different magazine types (30 round, 40 round, 100 round mag, 10 rounds of loose ammo, able to chamber a round without a magazine/clip etc...) will do on depth more...recommend googling ammo/caliber types to get familiar with.
+
+- Different calibers and ammo configurations - FMJ, Hollow Points, HE(High-explosive/incendiary). 7.62x39mm, 5.56x45mm, .50 BMG, .45 ACP, and so forth.
+
+- Chambered round support - 30 round mag gun, starts with 30/30 (rounds in current mag & ammo pool/reserve). reloads with 1 in the chamber (open bolt weapons exempt from this, like the UZI/AA-12/etc...). Tops off to 31/30.
+
+- Bullet drop - Bullets affected by gravity. Start pulling towards the ground multiplied by a value based on different caliber grains(weight) and overall 'table-top lookup' methods of a weapons average velocity out of the muzzle
+
+- Velocity fall-off - projectiles(bullets) lose speed from drag, start traveling slower down range
+
+- Damage fall-off - Projectiles lose damage values due to drag on the bullet, also relative to bullet drop
+
+- Wind variables - Wind affects trajectory of projectiles. Can be pushed in the air and user will have to adjust accordingly
+
+- Windage system - Can be adjustable for certain weapons' sights (horizontal adjustment) for wind. Using delete/end keybinds. can be adjusted to a certain degree. Mostly on scoped weapons (snipers, etc...)
+
+- Zeroing system - Certain weapons have adjustable sights (vertical adjustment), using page up/page down to sight-in the gun to a higher/lower range. For example: AK-47 has zeroing values from 100m(meters), up to 1000m. Ability to cycle through these values to a prefered value.
+
+- Fire selection system - Cycle through fire modes for certain weapons. For example, AK-47 uses Semi, Full. Semi-auto for single shots, and Full for, well full auto. Other weapons have more than two settings, like the MP5 (Semi, Full, Burst). Some Burst-fire weapons fire in bursts of either two (AN-94) or three (FAMAS, MP5, UMP, M16A4, etc...)
+
+- Chamber Check - Ability to half-cock a weapon to check for a chambered round (can be useful especially if a server preference is added to remove the HUD)
+
+- Accuracy modifiers - Weapon accuracy is generally VERY accurate, mostly on par with real-life counterparts. Some variation in the spread of the projectile should be implemented.
+
+- Projectile Penetration and Ballistics Simulation - Advanced support for penetration based on the projectile's velocity, weight, and bullet configuration (FMJ, HP, etc...). Also different calculations for hitting certain objects (possibly based on texture). Projectiles deflected off hard surfaces (concrete, hard metals, etc...) lose velocity/momentum, possibly 'tumbling' or 'keyholing'. Softer surfaces the same, but also absorb more. Softer surfaces also being able to be easily penetrated (drywall, wood, glass, etc...) Support for fragmentation of rounds. Water surfaces tend to cause the bullets (especially high-velocity rounds like .50 BMG and 20mm) to skip, or hydroplane if fired at a certain angle (slower projectiles like 40mm grenades and possibly subsonic rounds not able to do this).
