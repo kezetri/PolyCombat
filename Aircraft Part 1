@@ -1,0 +1,130 @@
+ideas and features.txt
+Type
+Text
+Size
+6 KB (6,215 bytes)
+Storage used
+12 KB (12,430 bytes)
+Location
+Fighter Jet Pack
+Owner
+me
+Modified
+Nov 19, 2019 by me
+Opened
+12:09 AM by me
+Created
+Oct 30, 2019 with Google Drive Web
+Add a description
+Viewers can download
+
+- Loadout:
+  - Ability to change aircraft loading (bombs, missiles, flare pods, extra fuel tanks, smoke, fuel amount)
+
+
+- Multiplayer/General Gameplay
+	- Ranking/competitive system(?)
+	- Ability to fly as passenger in two or more seat aircraft (and ability to assist during differing gamemodes)
+	- Ability to spectate
+	- Ability to restrict various aircraft/features based on different variables
+	- Unarmed aircraft are only available in Free-Flight mode
+		- Disable by aircraft model/type/role, max speed, max thrust, RCS(Stealth), era (before/after/between x year(s), max turn rate/radius, max AOA/G-limits, weapons (disable missiles)
+	- Gamemodes:
+		- Free-Flight 
+			- Optional weapons and/or rogue AI disabled
+			- IFF (Identify Friend/Foe) Selection (and ability to be changed during flight. Max 300s (5mins) between changes)
+			- AI flying around with random IFF
+				- AI may decide to go offensive/defensive and attack player based on different variables (proximity, pursuited for x amount of time, exhibiting defensive behaviour i.e. locking on/shooting at)
+		- Air-Superiority (Free-For-All) (PvP, PvE/CO-OP)
+			- No teams, every man for himself
+			- Last standing fighter wins
+		- Furball (Team Deathmatch) (PvP, PvE/CO-OP)
+			- Multiple teams will fight for the last standing team
+		- Standard
+			- Standard dogfight mode (for players and AI)
+			- X vs. x (1v1, 1v2, 2v2, etc...)
+			- max 12 players (adjustable by host)
+		- Bomber Interception (PvP, PvE/CO-OP)
+			- Offensive team has up to 2 bombers and up to 4 fighter aircraft
+			- Defensive team has up to 4 fighter aircraft
+			- Offensive team must escort bomber to destroy a target area under specified time and defensive must stop them at all costs
+			- If offensive bomber misses all attempts to hit target and has no remaining ammo, defensive team wins
+			
+		- Fighter Interception (PvP, PvE/CO-OP)
+			- One team must defend and intercept a fighter entering restricted airspace
+			- If offensive aircraft reaches certain distance into restricted airspace, offensive team wins
+			- If offensive aircraft resides in restricted airspace for x amount of time, offensive team wins
+			- If offensive aircraft is destroyed (engine/electronics failure/crashes/runs out of fuel), defensive team wins
+			- If offensive aircraft exits restricted airspace for x amount of time, defensive team wins
+
+
+- Hardware
+	- Controller/Joystick support
+	- Possibly VR support(?)	
+	- simple, but decent graphics (think similiar to ysflight/tiny combat. ability to run on older systems and pc's with low specs)
+
+- Misc. Features
+	- AI that learn (neural networking possibly?)
+	- Ability for Seaplanes to land on water
+		- Seaplanes cannot land at speeds above 400 knots otherwise hull damage
+	- Ability to eject (may count as loss depending on gamemode)
+	- Option to refuel/rearm/repair upon landing at an airport/aircraft carrier
+	- Ability to jettison (detach/dump) spare fuel tanks and a set percentage of main fuel
+		- Dumped tanks/fuel removes weight adding decreasing weight thus increasing maneuverability
+		- Dumped tanks explode on impact, can be used as bombs when out of ammo
+
+- UI/GUI/HUD
+	- Airspeed calculated in Knots
+		- Machmeter displaying speed in mach)
+	- Elevation calculated in Meters
+	- Current armament displayed (with rounds remaining)
+	- Health
+	- Advanced HUD calculating roll/pitch/yaw/heading
+	- Auto-GCAS (Automated Ground Collision Avoidance Software) for certain modern aircraft
+		- IF player does not recover from loss of altitude due to blackout or lack of input for x amount of time, autopilot will engage and maintain level flight at specified value (player may manually set what altitude the system will maintain, 
+	- TAWS (Terrain Awareness and Warning System)
+		- A warning sound will play when aircraft descends below specified altitude or when approaching heightened terrain (hills/mountains)
+
+
+- Damage
+	- Landing gear deployed at airspeed/groundspeed of 300kts will cause gear to break, causing damage and/or crash
+	- Damage to cockpit will cause electronics failure (and death to player based on proximity of missile explosion/bullets hitting player)
+	- Damage to engine/fuselage will cause engine failure
+	- Health values for wings/flaps/ailerons/stabilisers
+		- Parts start falling off decreasing aircraft stability (causing flatspins and stalls)
+	- Explosions/damage near fuel tanks cause chance of fire and/or explosion
+
+
+- Radar:
+	- 2D radar displayed at top right corner
+	- Stealth planes with low RCS (Radar Cross Section) cannot be easily displayed/spotted/locked on
+	- IFF (Identify Friend/Foe) System
+		- Differentiate between Friendly/Enemy/Neutral
+	- Aircraft with electronic warfare systems have ability to jam nearby enemy radar
+
+
+
+- Aircraft Maneuvering/Handling/Characteristics/Features
+	- Realistic flight model
+	- Turn radius & turn rate multiplied by speed (faster you go, the longer it will take to complete a full turn)
+	- Differing stability value per aircraft (some aircraft prone to stalls and flatspins from certain maneuvers)
+	- Aircraft with TVC (thrust vectoring control) more maneuverable (2D & 3D TVC)
+	- Ability to toggle AOA limiter/G-limiter (for certain aircraft)
+	- Afterburner to reach speeds above cruising speed
+	- VTOL (Vertical Take-Off and Lift) capabilities for designated aircraft (F-35B, AV-8B, YAK-141)
+- Effects
+	- Contrails apear at leading edge and tips of wings
+	- Audible sonic boom when aircraft and visible vapor cone traveling at or above the speed of sound (343 meters/sec or 666.739 knots)
+	- Engine/Thrust emitters
+	- visible flare	
+	- Smoke/flame damage emitters
+
+
+- G-Forces
+	- Optional "G-Loc" or "blackout" to pilots from G-Forces from high G maneuvers
+	- Positive G's will cause player to black out, and a "blackout" (black vignette) to appear
+	- Negative G's will kill player (more than -2.5 G's will kill player) and cause extreme damage to aircraft and cause a "redout" (red vignette) to appear
+	- Different Max-G values for certain planes
+	- Planes that reach G-Force above Max-G value will have electronic/engine failure and/or wings to snap off
+
+
