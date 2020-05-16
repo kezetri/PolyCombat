@@ -1,0 +1,25 @@
+Basics:
+  - Get player control module
+  - Basic Item/Weapon functionality. Start off easy, ability to equip. Worry about general functions later. 
+  - Figure out map making tool. Start experimenting with adding terrain, buildings, props, etc...
+  - UI, Settings menu, etc...
+
+Graphics:
+  - Basic rendering system with lots modularity to add more advanced graphics later like real time shadows, lighting, etc...
+  - Focus on performance over quality, at least until a few builds in where we're comfortable in upgrading.
+  
+  Ideas: Sim-lite/Sim-cade style combat game. Ability to simulate real-life weapons, gear, utilities, and vehicles to a somewhat balanced, but fun.
+  
+  Items/Weapons/Gear/Vehicles:
+    - Basic generic guns at first, get a working template for each type of firearm:
+      - Select-Fire (Semi, Full/Burst; ARs, SMGs, LMGs, etc...)
+      - Semi-Auto (Pistols, everything else semi-auto)
+      - Bolt/Pump/Manual action weapons (Shotguns, Bolt action rifles)
+    - Vehicle support: (more information, mainly about air combat here:   and here:
+      - Land/Air/Sea based controllers
+ Stance System:
+   Off-hand(Standing) - Lean left/right, blindfire around corners/walls left/right. Idle, Low-Ready, Aiming
+   Kneeling - same as above 
+   Prone, on stomach - rolling, ^
+   Prone, on back - ^
+   
