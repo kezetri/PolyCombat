@@ -8,14 +8,13 @@ Graphics:
   - Basic rendering system with lots modularity to add more advanced graphics later like real time shadows, lighting, etc...
   - Focus on performance over quality, at least until a few builds in where we're comfortable in upgrading.
   
-  Ideas: Sim-lite/Sim-cade style combat game. Ability to simulate real-life weapons, gear, utilities, and vehicles to a somewhat balanced, but fun.
-  
+  Ideas: Sim-lite/Sim-cade style combat game. Ability to simulate real-life weapons, gear, utilities, and vehicles to a somewhat balanced, but fun manner.
   Items/Weapons/Gear/Vehicles:
     - Basic generic guns at first, get a working template for each type of firearm:
       - Select-Fire (Semi, Full/Burst; ARs, SMGs, LMGs, etc...)
       - Semi-Auto (Pistols, everything else semi-auto)
       - Bolt/Pump/Manual action weapons (Shotguns, Bolt action rifles)
-    - Vehicle support: (more information, mainly about air combat here:   and here:
+    - Vehicle support: (more information, mainly about air combat on "Aircrat Part 1" in main repository.
       - Land/Air/Sea based controllers
  Stance System:
    Off-hand(Standing) - Lean left/right, blindfire around corners/walls left/right. Idle, Low-Ready, Aiming
